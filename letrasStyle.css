@@ -1,0 +1,100 @@
+@font-face {
+    font-family: pixel;
+   
+    src: url(letra2.ttf);
+  
+}
+@font-face {
+    font-family: anime;
+   
+    src: url(letra3.otf);
+  
+}
+
+
+.text1{
+    font-family: pixel; 
+    letter-spacing: -1px;
+    font-size: 33px;
+   
+}
+
+.txt-ps{
+    font-family: pixel; 
+    letter-spacing: -6px;
+    font-size: 35px;
+    margin-left: 320px;
+   
+}
+.des-1
+{
+    margin-left: 200px;
+    margin-top: -350px;
+    font-family: anime; 
+    color: yellow;
+    -webkit-text-stroke-color: blue;
+    -webkit-text-stroke-width: 1px;
+    letter-spacing: -1px;
+    font-size: 72px;
+}
+.des-2
+{
+    margin-left: 120px;
+    margin-right: 550px;
+    margin-top: 50px;
+    font-family: pixel; 
+    color: white;
+     text-shadow: 5px 3px 1px black;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-align: justify;
+}
+.title-1
+{
+    top: 200px;
+    margin-top: 200px;
+    text-align: center;
+  
+    font-family: pixel; 
+    color: #fbdc80;
+    text-shadow: 5px 3px 1px #f05429;
+    
+   
+    letter-spacing: 1px;
+    font-size: 40x;
+   
+    text-transform: uppercase;
+    position: static;
+}
+
+.title-2
+{
+    top: 200px;
+    margin-top: 100px;
+    text-align: center;
+  
+    font-family: pixel; 
+    color: #fbdc80;
+    text-shadow: 5px 3px 1px #f05429;
+    
+   
+    letter-spacing: 1px;
+    font-size: 40x;
+   
+    text-transform: uppercase;
+    position: static;
+}
+.des-3
+{
+    margin-left: 120px;
+    margin-right: 200px;
+    margin-top: -25px;
+    top: 200px;
+    font-family: pixel; 
+    color:#f8f7fd ;
+     text-shadow: 5px 3px 1px#7e7d7b ;
+    letter-spacing: 1px;
+    font-size: 25px;
+    text-align: center;
+    position: static;
+}

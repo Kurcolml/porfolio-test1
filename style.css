@@ -1,0 +1,124 @@
+.img-1
+{ 
+    width: 400px;
+    margin-top: -379px;
+    margin-left: 1300px;
+
+    opacity: 100%;
+    position: relative;
+ 
+  
+}
+.marquito
+{
+    
+    width: 400px;
+    margin-top: 335px;
+    margin-left: 1340px;
+    border-style: solid;
+    border-color: white;
+    opacity: 100%;
+    position: relative;
+}
+.etiqueta
+{
+    background: url(images/etiqueta.png);
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 100px;
+   position:absolute;
+   background-repeat: no-repeat;
+   z-index: -1;
+   
+}
+.cielo
+{ 
+   
+    background-repeat: no-repeat;
+ 
+    width: 1900px;
+    height: 949px;
+    z-index: -1;
+    position: absolute;
+    margin-top: -200px;
+       
+}
+.btn-salir
+{
+    font-family: pixel;
+    font-size: 20px;
+    white-space: nowrap;
+    opacity: 1;
+    background-color: #f9f8f9;
+    cursor: pointer;
+    border: none;  
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.btn-menu{
+    
+    width: 120px;
+    height: 17%;
+    left: 1750px;
+    top: 20px;
+    background-image: url(images/mochila.png);
+    
+    background-repeat: no-repeat;
+    background-size: 119px; 
+    display: flex;
+    flex-wrap:wrap;
+   
+    cursor: pointer;
+    position: absolute;
+    z-index: 2;
+    
+}
+.btn-menu:hover{
+    -webkit-filter: drop-shadow(4px 4px 0 #cb5e26)
+                  drop-shadow(-2px -2px 0#cb5e26);
+  filter: drop-shadow(4px 4px 0 #cb5e26) 
+          drop-shadow(-2px -2px 0 #cb5e26);
+    
+}
+.nav-menu-bar{
+    position:absolute;
+    left: 1670px;
+    bottom: 40px;
+    width: 0px;
+    padding: 0 0px;
+    height: calc(100vh - 60px);
+    background-image: url(images/menu.png);
+    background-repeat: no-repeat;
+    z-index: 1000;
+   
+   
+
+}
+.nav-menu-bar ul{
+
+padding-top: 0px;
+overflow: hidden;
+visibility: hidden;
+
+}
+.nav-menu-bar ul li{
+
+line-height: 50px;
+
+list-style: none;
+
+}
+.nav-menu-bar ul li span, .nav-menu-bar ul li a{
+
+display: block;
+height: 52px;
+padding: 0 5px;
+text-decoration: none;
+text-transform: uppercase;
+color: black;
+   font-family: pixel;
+   font-size: 20px;
+   white-space: nowrap;
+   opacity: 1;
+}

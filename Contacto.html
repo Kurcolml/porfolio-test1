@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href= "contact.css">
+    <link rel="stylesheet" href= "letrasStyle.css">
+    <link rel="stylesheet" href= "animations.css">
+    <title>Mi Contacto</title>
+   <style>
+    body{
+        background-image:url("images/contacto.png"); 
+   background-size: cover;
+   background-repeat: no-repeat;
+    }
+   </style>
+</head>
+<body>
+   <div>
+
+    <div class="contac-title">
+        <h1> Mi Contacto</h1>
+</div>
+<div class="contact-form">
+    <form id="contact-form" method="post" action="">
+     <input name = "name" type="text" class="form-control" placeholder="Tu Nombre" required>
+     <br>
+     <input name="email" type="text" class="form-control" placeholder="Email" required>
+     <br>
+     <textarea name="message" class="form-control" placeholder="Mensaje" required> </textarea>
+     <br>
+     <input type="submit" class="form-control sumbit" value="Enviar">
+
+
+    </form>
+</div>
+
+   </div>
+
+ 
+    </div>
+    <div>  <div class = "btn-menu" onclick="toggleNav()"> </div>
+    
+    <aside class="nav-menu-bar">  
+     
+     <ul>
+         <li><span> Menu</span></li>
+         <li><a href="Inicio.html">Inicio</a></li>
+         <li><a href="Porfolio.html">Porfolio</a></li>
+         <li><a href="SobreMi.html">Sobre mi</a></li>
+         <li><a href="Contacto.html">Contacto</a></li>
+         <li ><button class="btn-salir" onclick="closeNav()"> Salir</button></li>
+     </ul>
+    </aside> 
+    
+
+
+</body>
+<script src="main.js">
+     
+</script>
+</html>
